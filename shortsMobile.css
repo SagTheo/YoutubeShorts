@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shortContainer {
+    width: calc(100vw / 4);
+    height: 90vh;
+    margin: auto;
+    margin-top: 5vh;
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 5% 5% 78% 5% 7%;
+}
+
+.subscriptionsBtn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    opacity: 0.4;
+}
+
+.iconPlusText {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconPlusText span {
+    color: white;
+}
+
+/* topBar */
+.topBar span {
+    color: white;
+    font-weight: 900;
+}
+
+/* rightBar */
+
+
+/* bottomBar */
+.bottomBar {
+    display: flex;
+}
+
+.bottomBar .logo {
+    background-color: blue;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.bottomBar button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.bottomBar span {
+    color: white;
+}
+
+/* navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    background-color: black;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .iconPlusText span {
+    font-size: 0.6rem;
+}
