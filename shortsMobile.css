@@ -37,7 +37,25 @@ body {
 }
 
 /* rightBar */
+.rightBarContainer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
 
+.rightBar {
+    margin-right: 1rem;
+}
+
+.rightBar .iconPlusText {
+    margin-bottom: 0.7rem;
+    align-items: center;
+}
+
+.rightBar .iconPlusText span {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
 
 /* bottomBar */
 .bottomBar {
