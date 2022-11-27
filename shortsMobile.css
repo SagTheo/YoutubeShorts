@@ -84,6 +84,23 @@ body {
     margin-top: 0.5rem;
 }
 
+.title {
+    margin-left: 0.5rem;
+}
+
+.title p {
+    margin-block-end: 0rem;
+    max-width: 90%;
+}
+
+.title span {
+    font-weight: bold;
+}
+
+.title p, .title span {
+    color: white;
+}
+
 /* bottomBar */
 .bottomBar {
     display: flex;
@@ -105,8 +122,9 @@ body {
 .bottomBar button {
     background-color: red;
     color: white;
+    font-weight: bold;
     border: none;
-    height: 60%;
+    padding-block: 3px;
     border-radius: 5px;
 }
 
