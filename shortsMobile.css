@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     display: grid;
-    grid-template-rows: 5% 5% 73% 10% 7%;
+    grid-template-rows: 8% 5% 70% 10% 7%;
 }
 
 .subscriptionsBtn {
@@ -31,9 +31,25 @@ body {
 }
 
 /* topBar */
-.topBar span {
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 0.5rem;
+}
+
+.topBarLeft, .topBarRight {
+    display: flex;
+    align-items: center;
+}
+
+.topBarLeft span {
     color: white;
     font-weight: 900;
+    margin-left: 1.5rem;
+}
+
+.topBarRight .bi-search {
+    margin-right: 1.5rem;
 }
 
 /* rightBar */
@@ -44,7 +60,7 @@ body {
 }
 
 .rightBar {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 
 .rightBar .iconPlusText {
