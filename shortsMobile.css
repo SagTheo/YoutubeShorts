@@ -3,7 +3,7 @@ body {
 }
 
 .shortContainer {
-    width: calc(100vw / 4);
+    width: 350px;
     height: 90vh;
     margin: auto;
     margin-top: 5vh;
@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     display: grid;
-    grid-template-rows: 5% 5% 78% 5% 7%;
+    grid-template-rows: 5% 5% 73% 10% 7%;
 }
 
 .subscriptionsBtn {
@@ -60,12 +60,18 @@ body {
 /* bottomBar */
 .bottomBar {
     display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+
+.bottomBar .logo, .bottomBar button, .bottomBar span {
+    margin-left: 0.5rem;
 }
 
 .bottomBar .logo {
     background-color: blue;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -73,10 +79,14 @@ body {
     background-color: red;
     color: white;
     border: none;
+    height: 60%;
+    border-radius: 5px;
 }
 
 .bottomBar span {
     color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 /* navbar */
