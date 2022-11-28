@@ -8,12 +8,13 @@ body {
     gap: 1rem;
     width: fit-content;
     margin: auto;
+    margin-top: 5vh;
 }
 
 .contentContainer {
     width: 350px;
     height: 90vh;
-    border-radius: 20px;
+    border-radius: 15px;
     background-image: url('https://picsum.photos/200/300');
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +23,34 @@ body {
 
 /* content */
 .content {
-    margin: 0.5rem;
+    margin: 1rem;
+    height: calc(100% - 2rem);
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomBar > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0;
 }
 
 .title, .youtuber, .text {
@@ -31,6 +59,13 @@ body {
 
 .youtuber, .bottomBar button {
     font-weight: 550;
+}
+
+.bottomBar .logo {
+    background-color: red;
+    height: 60%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
 }
 
 .bottomBar button {
@@ -46,6 +81,12 @@ body {
     align-items: flex-end;
 }
 
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .iconPlusText, .more {
     margin-bottom: 1rem;
     text-align: center;
@@ -58,7 +99,14 @@ body {
 .icon {
     background-color: rgb(42, 42, 42);
     border-radius: 50%;
-    padding: 10px;
+    padding: 12px;
     display: flex;
     justify-content: center;
+}
+
+.sideBar .logo {
+    background-color: red;
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
 }
