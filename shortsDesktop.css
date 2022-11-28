@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    gap: 1rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.contentContainer {
+    width: 350px;
+    height: 90vh;
+    border-radius: 20px;
+    background-image: url('https://picsum.photos/200/300');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* content */
+.content {
+    margin: 0.5rem;
+}
+
+.title, .youtuber, .text {
+    color: white;
+}
+
+.youtuber, .bottomBar button {
+    font-weight: 550;
+}
+
+.bottomBar button {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+/* side bar */
+.sideBarContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.iconPlusText, .more {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.iconPlusText .icon {
+    margin-bottom: 0.3rem;
+}
+
+.icon {
+    background-color: rgb(42, 42, 42);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
